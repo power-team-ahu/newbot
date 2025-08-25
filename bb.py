@@ -32,7 +32,7 @@ from telegram.ext import (
 )
 
 # ضع توكن البوت هنا
-BOT_TOKEN = "8447138394:AAHFEKr1hwxqlEas0h11UVeDar5a1O2j3F8"
+BOT_TOKEN = "8447138394:AAE-yv0LLsCd_pMhdzXllwwB2e2OYMGPBuQ"
 
 # ---------------------------
 # بيانات المواد (روابط Google Drive)
@@ -405,3 +405,4 @@ if __name__ == "__main__":
     application = build_app()
     print("Power Team Bot is running...")
     application.run_polling(allowed_updates=Update.ALL_TYPES)
+
